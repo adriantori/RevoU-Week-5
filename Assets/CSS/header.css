@@ -1,0 +1,13 @@
+.colorDe{
+    animation: colorDE 2s linear infinite;
+    color:red;
+}
+
+@keyframes colorDE {
+    0% {color:red;}
+    20% {color:lightcoral;}
+    40% {color:lightblue;}
+    60% {color:blue;}
+    80% {color:lightblue;}
+    100% {color:lightcoral;}
+}
