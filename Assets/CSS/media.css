@@ -2,6 +2,7 @@
     /*header*/
     .container{
         flex-direction: column;
+        margin-top:50px;
     }
     .cube{
         margin-top:50px;
