@@ -1,0 +1,11 @@
+@media only screen and (max-width: 425px) {
+    /*header*/
+    .container{
+        flex-direction: column;
+    }
+    .cube{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+}

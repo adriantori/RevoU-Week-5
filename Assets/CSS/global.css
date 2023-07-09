@@ -24,14 +24,15 @@
 }
 
 body{
+    background-color: var(--bg-color);
+}
+
+.container{
     display:flex;
     flex-wrap:nowrap;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--bg-color);
-}
-
-.container{
     text-align: center;
 }
+h1{font-size: 5em;}
