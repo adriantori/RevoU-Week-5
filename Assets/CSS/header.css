@@ -1,15 +1,11 @@
 .colorDe{
-    animation: colorDE 2s linear infinite;
-    color:red;
+    animation: colorDE 4s ease-in-out infinite;
 }
 
 @keyframes colorDE {
-    0% {color:red;}
-    20% {color:lightcoral;}
-    40% {color:lightblue;}
-    60% {color:blue;}
-    80% {color:lightblue;}
-    100% {color:lightcoral;}
+    0% {color:black;}
+    75% {color:red;}
+    85% {color:blue;}
 }
 
 .box{
