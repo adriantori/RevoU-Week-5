@@ -60,3 +60,17 @@
 .word span:nth-child(5){
     animation-delay: 8s;
 }
+
+@media only screen and (max-width: 425px) {
+    /*header*/
+    .container{
+        flex-direction: column;
+        margin-top:50px;
+    }
+    .cube{
+        margin-top:50px;
+        margin-bottom:100px;
+        margin-left:0;
+    }
+
+}

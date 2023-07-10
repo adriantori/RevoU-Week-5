@@ -53,3 +53,11 @@
     transform: rotateX(90deg) translateZ(-180px);
     filter: blur(20px);
 }
+
+@media only screen and (max-width: 425px) {
+    .cube{
+        margin-top:50px;
+        margin-bottom:120px;
+        margin-left:0;
+    }
+}
