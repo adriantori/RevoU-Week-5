@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
     <link rel="stylesheet" href="Assets/CSS/global.css">
+    <link rel="stylesheet" href="Assets/CSS/misc.css">
     <link rel="stylesheet" href="Assets/CSS/header.css">
     <link rel="stylesheet" href="Assets/CSS/cube.css">
     <link rel="stylesheet" href="Assets/CSS/backToTop.css">
@@ -24,27 +25,49 @@
 <body>
     <nav>
         <div class="navbar">
-            <div class="logo"><a href="#"><span style="color:red">Co</span><span style="color:purple">de</span><span
-                style="color:blue">gree</span></a></div>
+            <div class="logo"><a href="#"><span style="color:#BD2B48">Co</span><span style="color:#9043C3">de</span><span
+                style="color:#12348D">gree</span></a></div>
             <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Showcase</a></li>
+                <li><a href="#opening">Opening</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#showcase">Showcase</a></li>
             </ul>
             <a href="#contactUs" class="contactUs">Contact Us!</a>
             <div class="toggleBtn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-
+        <div class="sideNav">
+            <div class="sideNavItem">
+                <a href="#home" class="sideNavLink sideNavLinkActive" id="navHome" onclick="activeHome()"></a>
+                <span class="sideNavLabel">Home</span>
+            </div>
+            <div class="sideNavItem">
+                <a href="#opening" class="sideNavLink" id="navOpening" onclick="activeOpening()"></a>
+                <span class="sideNavLabel">Opening</span>
+            </div>
+            <div class="sideNavItem">
+                <a href="#services" class="sideNavLink" id="navServices" onclick="activeServices()"></a>
+                <span class="sideNavLabel">Services</span>
+            </div>
+            <div class="sideNavItem">
+                <a href="#showcase" class="sideNavLink" id="navShowcase" onclick="activeShowcase()"></a>
+                <span class="sideNavLabel">Showcase</span>
+            </div>
+            <div class="sideNavItem">
+                <a href="#contactUs" class="sideNavLink" id="navContact" onclick="activeContact()"></a>
+                <span class="sideNavLabel">Contact Us</span>
+            </div>
+        </div>
         <div class="dropdownMenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Showcase</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#opening">Opening</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#showcase">Showcase</a></li>
             <li><a href="#contactUs" class="contactUs">Contact Us!</a></li>
         </div>
     </nav>
-    <header>
+    <header id="home" name="home" class="section" data-label="home">
         <div class="container">
             <div class="box">
                 <h1>Think with <span style="color:red">Co</span><span class="colorDe">de</span><span
@@ -71,16 +94,16 @@
         </div>
     </header>
     <main>
-        <section id="opening">
-
+        <section id="opening" name="opening" class="section" data-label="Opening">
+            opening
         </section>
-        <section id="services">
-
+        <section id="services" name="services" class="section" data-label="Services">
+            services
         </section>
-        <section id="showcase">
-
+        <section id="showcase" name="showcase" class="section" data-label="Showcase">
+            showcase
         </section>
-        <section id="contactUs">
+        <section id="contactUs" name="contactUs" class="section" data-label="Contact Us">
             <div class="contact">
                 <div class="title">
                     <h2>Get in touch</h2>

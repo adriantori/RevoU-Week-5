@@ -1,11 +1,12 @@
 #contactUs{
     background: linear-gradient(90deg, var(--bg-primary) 0%, var(--bg-primary) 30%,  var(--bg-secondary) 30%, var(--bg-secondary) 100%);
+    
 }
 
 .contact{
     padding: 40px 100px;
     box-shadow: 5px 10px rgba(0,0,0, 0.2);
-    
+    width:100%;
 }
 
 .contact .title {
@@ -28,7 +29,6 @@
     "form info"
     "form map";
     grid-gap: 20px;
-    
 }
 
 .contact h4{

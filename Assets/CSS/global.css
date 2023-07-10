@@ -11,6 +11,7 @@ html {
 :root{
     --font-color: #2F4858;
     --bg-color: #DEF5E5;
+    --inverted-bg-color: #0E2954;
     --link-color: #005C85;
     --bg-primary: #398488;
     --bg-secondary: #8DBCB1;
@@ -21,17 +22,20 @@ html {
 
 [data-theme="light"] {
     --font-color: #2F4858;
-    --bg-color: #F9F871;
-    --link-color: #9BDE7E;
-    --bg-primary: #4BBC8E;
-    --bg-secondary: #039590;
-    --contact-info: #4B5A78;
-    --contact-form: #D886A3;
+    --bg-color: #DEF5E5;
+    --inverted-bg-color: #0E2954;
+    --link-color: #005C85;
+    --bg-primary: #398488;
+    --bg-secondary: #8DBCB1;
+    --contact-info: #816C61;
+    --contact-form: #575A4B;
+    --contact-font: #6096BA;
 }
 
 [data-theme="dark"] {
     --font-color: #84A7A1;
     --bg-color: #0E2954;
+    --inverted-bg-color: #DEF5E5;
     --link-color: #2E8A99;
     --bg-primary: #007295;
     --bg-secondary: #B37ECA;

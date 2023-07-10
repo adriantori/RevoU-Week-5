@@ -98,6 +98,52 @@ nav{
     justify-content: center;
 }
 
+
+/*side nav*/
+.sideNav{
+    --nav-gap: 15px;
+    padding: var(--nav-gap);
+    position: fixed;
+    right: 0;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:10;
+}
+
+.sideNavItem{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: var(--nav-gap);
+}
+
+.sideNavLink:hover ~ .sideNavLabel{
+    opacity: 1;
+}
+
+.sideNavLabel {
+    color: var(--text-color);
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+.sideNavLink {
+    background-color: var(--inverted-bg-color);
+    border-radius: 50%;
+    height: var(--nav-gap);
+    width: var(--nav-gap);
+    margin-left: var(--nav-gap);
+    opacity:0.3;
+    transition: transform 0.1s;
+}
+
+.sideNavLinkActive{
+    background-color: var(--inverted-bg-color);
+    transform: scale(1.2);
+    opacity:1;
+}
+
 @media only screen and (max-width: 425px) {
     .navbar .links,
     .navbar .contactUs {
@@ -116,5 +162,9 @@ nav{
 
     .open{
         height:180px;
+    }
+
+    .sideNav{
+        display:none;
     }
 }
