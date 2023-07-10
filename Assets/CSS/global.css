@@ -2,29 +2,41 @@ html {
     scroll-behavior: smooth;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
-    --font-color: #FFD6A5;
-    --bg-color: #FF9B9B;
-    --link-color: #CBFFA9;
-    --box-color-1: #1F6E8C;
-    --box-color-2: #FFFEC4;
+    --font-color: #2F4858;
+    --bg-color: #DEF5E5;
+    --link-color: #005C85;
+    --bg-primary: #398488;
+    --bg-secondary: #8DBCB1;
+    --contact-info: #816C61;
+    --contact-form: #575A4B;
+    --contact-font: #6096BA;
 }
 
 [data-theme="light"] {
-    --font-color: #FFD6A5;
-    --bg-color: #FF9B9B;
-    --link-color: #CBFFA9;
-    --box-color-1: #1F6E8C;
-    --box-color-2: #FFFEC4;
-
+    --font-color: #2F4858;
+    --bg-color: #F9F871;
+    --link-color: #9BDE7E;
+    --bg-primary: #4BBC8E;
+    --bg-secondary: #039590;
+    --contact-info: #4B5A78;
+    --contact-form: #D886A3;
 }
 
 [data-theme="dark"] {
     --font-color: #84A7A1;
     --bg-color: #0E2954;
     --link-color: #2E8A99;
-    --box-color-1: #FFFEC4;
-    --box-color-2: #1F6E8C;
+    --bg-primary: #007295;
+    --bg-secondary: #B37ECA;
+    --contact-info: #00B294;
+    --contact-form: #F9F871;
 }
 
 body{
