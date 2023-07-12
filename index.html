@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="Assets/CSS/cube.css">
     <link rel="stylesheet" href="Assets/CSS/backToTop.css">
     <link rel="stylesheet" href="Assets/CSS/navbar.css">
+    <link rel="stylesheet" href="Assets/CSS/showcase.css">
     <link rel="stylesheet" href="Assets/CSS/contactUs.css">
 
     <link rel="stylesheet" href="Assets/CSS/media.css">
@@ -25,8 +26,8 @@
 <body>
     <nav>
         <div class="navbar">
-            <div class="logo"><a href="#"><span style="color:#BD2B48">Co</span><span style="color:#9043C3">de</span><span
-                style="color:#12348D">gree</span></a></div>
+            <div class="logo"><a href="#"><span style="color:#BD2B48">Co</span><span
+                        style="color:#9043C3">de</span><span style="color:#12348D">gree</span></a></div>
             <ul class="links">
                 <li><a href="#opening">Opening</a></li>
                 <li><a href="#services">Services</a></li>
@@ -37,27 +38,8 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-        <div class="sideNav">
-            <div class="sideNavItem">
-                <a href="#home" class="sideNavLink sideNavLinkActive" id="navHome" onclick="activeHome()"></a>
-                <span class="sideNavLabel">Home</span>
-            </div>
-            <div class="sideNavItem">
-                <a href="#opening" class="sideNavLink" id="navOpening" onclick="activeOpening()"></a>
-                <span class="sideNavLabel">Opening</span>
-            </div>
-            <div class="sideNavItem">
-                <a href="#services" class="sideNavLink" id="navServices" onclick="activeServices()"></a>
-                <span class="sideNavLabel">Services</span>
-            </div>
-            <div class="sideNavItem">
-                <a href="#showcase" class="sideNavLink" id="navShowcase" onclick="activeShowcase()"></a>
-                <span class="sideNavLabel">Showcase</span>
-            </div>
-            <div class="sideNavItem">
-                <a href="#contactUs" class="sideNavLink" id="navContact" onclick="activeContact()"></a>
-                <span class="sideNavLabel">Contact Us</span>
-            </div>
+        <div id="sideNav">
+
         </div>
         <div class="dropdownMenu">
             <li><a href="#home">Home</a></li>
@@ -73,12 +55,13 @@
                 <h1>Think with <span style="color:red">Co</span><span class="colorDe">de</span><span
                         style="color:blue">gree</span></h1>
                 <h4>The web developer you
-                    <div class="word">
-                        <span style="color:red">want</span>
-                        <span style="color:fuchsia">need</span>
-                        <span style="color:green">believe</span>
-                        <span style="color:teal">trust</span>
-                        <span style="color:blue">think</span>
+                    <div class="roller">
+                        <span id="rollText" style="color:red">WANT<br />
+                            <span style="color:fuchsia">NEED</span><br />
+                            <span style="color:green">BELIEVE</span><br />
+                            <span style="color:teal">TRUST</span><br />
+                            <span style="color:lightblue">THINK</span>
+                        </span>
                     </div>
                 </h4>
             </div>
@@ -91,17 +74,55 @@
                     <span style="--i:3; color:blue">DEGREE</span>
                 </div>
             </div>
-        </div>
     </header>
     <main>
         <section id="opening" name="opening" class="section" data-label="Opening">
-            opening
+            <div class="tempHeight">
+                opening
+            </div>
         </section>
         <section id="services" name="services" class="section" data-label="Services">
-            services
+            <div class="tempHeight">
+                services
+            </div>
         </section>
         <section id="showcase" name="showcase" class="section" data-label="Showcase">
-            showcase
+            <div class="tempHeight">
+                <h2>Create your own design!</h2>
+                <div class="showcaseNavbar">
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <div class="slideItem slideNav fade">
+                        <img src="Assets/Images/customWeb/navbar1.png">
+                    </div>
+
+                    <div class="slideItem slideNav fade">
+                        <img src="Assets/Images/customWeb/navbar2.png">
+                    </div>
+
+                    <div class="slideItem slideNav fade">
+                        <img src="Assets/Images/customWeb/navbar3.png">
+                    </div>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <div id="showcaseBody">
+                    <div class="showcaseBodyContent">
+                        <label for="changeColorBody">Change Background</label>
+                        <input type="color" id="changeColorBody" value="#F0F0F0"/>
+                        <label for="changeColorText">Change Text Color</label>
+                        <input type="color" id="changeColorText" value="#0F0F0F"/>
+                    </div>
+                </div>
+                <div class="showcaseFooter">
+                    <a class="prev" onclick="plusSlidesFoot(-1)">❮</a>
+                    <div class="slideItem slideFoot fade">
+                        <img src="Assets/Images/customWeb/footer1.png">
+                    </div>
+                    <div class="slideItem slideFoot fade">
+                        <img src="Assets/Images/customWeb/footer3.png">
+                    </div>
+                    <a class="next" onclick="plusSlidesFoot(1)">❯</a>
+                </div>
+            </div>
         </section>
         <section id="contactUs" name="contactUs" class="section" data-label="Contact Us">
             <div class="contact">
@@ -171,7 +192,10 @@
                         </ul>
                     </div>
                     <div class="contact map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.811300386375!2d112.73739166902837!3d-7.262304436144205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f960aee9a64d%3A0xaa9e2f2c4ed67175!2sTunjungan%20Plaza!5e0!3m2!1sen!2sid!4v1688965885838!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.811300386375!2d112.73739166902837!3d-7.262304436144205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f960aee9a64d%3A0xaa9e2f2c4ed67175!2sTunjungan%20Plaza!5e0!3m2!1sen!2sid!4v1688965885838!5m2!1sen!2sid"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -183,4 +207,6 @@
     </footer>
 </body>
 <script src="Assets/JS/navbar.js"></script>
+<script src="Assets/JS/showcase.js"></script>
+
 </html>

@@ -1,11 +1,5 @@
 .colorDe{
-    animation: colorDE 4s ease-in-out infinite;
-}
-
-@keyframes colorDE {
-    0% {color:black;}
-    75% {color:red;}
-    85% {color:blue;}
+    color: purple;
 }
 
 .box{
@@ -59,6 +53,42 @@
 }
 .word span:nth-child(5){
     animation-delay: 8s;
+}
+
+.roller{
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+
+  }
+
+.roller #rollText {
+    position: absolute;
+    top: 0;
+    animation: slide 6s ease-in-out infinite;  
+}
+@keyframes slide {
+    0%{
+      top:0;
+    }
+    20%{
+        top: -4rem;    
+    }
+    40%{
+        top: -8rem;
+    }
+    60%{
+        top: -12rem;
+    }
+    80%{
+        top: -16rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
