@@ -17,7 +17,7 @@ function showSlides(n) {
   for (i = 0; i < slidesNav.length; i++) {
     slidesNav[i].style.display = "none";  
   }
-  slidesNav[slideIndexNavbar-1].style.display = "block";  
+  slidesNav[slideIndexNavbar-1].style.display = "flex";  
 }
 
 let slideIndexFooter = 1;
@@ -39,7 +39,7 @@ function showSlidesFoot(m) {
   for (i = 0; i < slidesFoot.length; i++) {
     slidesFoot[i].style.display = "none";  
   }
-  slidesFoot[slideIndexFooter-1].style.display = "block";  
+  slidesFoot[slideIndexFooter-1].style.display = "flex";  
 }
 
 //content color
@@ -49,7 +49,6 @@ let changeColorText = document.getElementById('changeColorText');
 //body
 setInterval(() => {
   let colorBody = changeColorBody.value;
-  console.log(colorBody);
   document.getElementById("showcaseBody").style.backgroundColor = colorBody;
   let colorText = changeColorText.value;
   document.getElementById("showcaseBody").style.color = colorText;

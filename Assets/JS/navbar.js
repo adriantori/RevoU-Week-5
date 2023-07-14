@@ -71,7 +71,6 @@ function activateNavigation(){
 
         //filter "visible section"
         let visibleSection = entries.filter(entry=> entry.isIntersecting)[0];
-        console.log(visibleSection);
         //select .sideNavItem -> attribute section of it, get ID
         document.querySelector(`.sideNavItem[dataForSection="${visibleSection.target.id}"] .sideNavLink`).classList.add("sideNavLinkActive");
 

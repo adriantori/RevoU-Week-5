@@ -66,7 +66,42 @@
     margin-right:auto;
 }
 
-.showcaseFooter img{
-    width:50vw;
-    height:30%;
+.showcaseNavbar img {
+    width: auto;
+    height: 3vw;
+}
+
+.showcaseFooter img {
+    width: 80vw;
+}
+
+.slideNav{
+    display:flex;
+}
+
+.showcaseMargin{
+    height:95vh;
+    margin-top:5vh;
+}
+
+@media only screen and (min-width: 1024px) {
+    .showcaseFooter img {
+        width: 60vw;
+    }
+    
+    .showcaseNavbar img {
+        width: 60vw;
+        height: 2vw;
+    }
+}
+
+@media only screen and (max-width:425px){
+    
+    .prev, .next {
+        height:2vw;
+    }
+    
+    .showcaseNavbar img {
+        width: auto;
+    }
 }

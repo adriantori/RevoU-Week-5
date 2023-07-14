@@ -14,3 +14,38 @@ body::-webkit-scrollbar-thumb {
 .tempHeight{
   height:100vh;
 }
+
+.navWaveBottom {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.navWaveBottom svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 150px;
+}
+
+.navWaveBottom .shape-fill {
+  fill: var(--bg-secondary);
+}
+
+.navWaveTop {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.navWaveTop svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 150px;
+}
+
+.navWaveTop .shape-fill {
+  fill: var(--bg-secondary);
+}
