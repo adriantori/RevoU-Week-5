@@ -23,7 +23,10 @@ gsap.from('.box', {
   duration: 2, 
   x:'-150%', 
   delay:'0.5'
-})
+});
+
+document.getElementsByClassName('box')[0].style.zIndex = "1";
+
 
 //words
 const words = document.querySelectorAll('.box > h4 > span');
