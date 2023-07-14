@@ -30,7 +30,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Navbar - Normal
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-19-35-44-image.png)
+![](/Assets/Images/Readme/2023-07-14-19-35-44-image.png)
 
 1. There's vertical animation from top to bottom, followed by staggered animation on nav items.
 
@@ -38,7 +38,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Navbar - Mobile
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-19-54-12-image.png)
+![](/Assets/Images/Readme/2023-07-14-19-54-12-image.png)
 
 1. There's vertical animation from top to bottom, then bounced up
 
@@ -50,7 +50,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Sidebar
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-21-36-53-image.png)
+![](/Assets/Images/Readme/2023-07-14-21-36-53-image.png)
 
 1. Each section will have its own sidebar (disabled on mobile view).
 
@@ -60,7 +60,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### H1 section
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-19-58-18-image.png)
+![](/Assets/Images/Readme/2023-07-14-19-58-18-image.png)
 
 1. Each color of "CoDeGree" is made out of span.
 
@@ -70,7 +70,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### The C U B E
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-19-59-45-image.png)
+![](/Assets/Images/Readme/2023-07-14-19-59-45-image.png)
 
 1. Its comprised of 5 span.
 
@@ -82,7 +82,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Opening Section
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-20-07-49-image.png)
+![](/Assets/Images/Readme/2023-07-14-20-07-49-image.png)
 
 1. The title have slide animation from left to right.
 
@@ -96,7 +96,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Services Section
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-20-45-00-image.png)
+![](/Assets/Images/Readme/2023-07-14-20-45-00-image.png)
 
 1. Each div on the left side can be clicked.
 
@@ -106,7 +106,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Showcase Section
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-21-38-55-image.png)
+![](/Assets/Images/Readme/2023-07-14-21-38-55-image.png)
 
 1. User can change Navbar and Footer by clicking on the Arrow.
 
@@ -116,7 +116,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Contact Us
 
-![](B:\Works\RevoU\Week%205\Project%20Milestone\Assets\Images\Readme\2023-07-14-21-40-47-image.png)
+![](/Assets/Images/Readme/2023-07-14-21-40-47-image.png)
 
 1. Contact Us is created using Grid.
 
