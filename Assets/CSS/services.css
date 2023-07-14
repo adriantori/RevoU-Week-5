@@ -3,3 +3,128 @@
     position:relative;
     background-color: var(--bg-secondary);
 }
+
+.servicesGridContainer{
+    background-color: var(--bg-primary);
+    display:grid;
+    width:80vw;
+    height:40vw;
+    margin:1vw 10vw;
+    padding:1vw;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "tops cont"
+    "mid cont"
+    "bot cont";
+    grid-gap: 10px;
+}
+
+
+#servicesGridTop{
+    grid-area: tops;
+    background-color: red;
+    opacity:0.8;
+}
+
+#servicesGridMid{
+    grid-area: mid;
+    background-color: green;
+}
+
+#servicesGridBottom{
+    grid-area: bot;
+    background-color: blue;
+}
+
+#servicesGridContent{
+    grid-area: cont;
+    background-color: var(--bg-color);
+}
+
+.contentItem{
+    display: none;
+    align-items: center;
+    justify-content: flex-end !important;
+}
+
+.servicesItem{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:2em;
+    text-align: center;
+}
+
+.servicesItemContent{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentItem figure{
+    width: 100%;
+    height: 100%;
+}
+
+.contentItem figure img{
+    width: auto;
+    max-height: 400px;
+}
+
+.contentItem figure figcaption p{
+    font-size: 2em;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .contentItem figure img{
+        width: auto;
+        max-height: 300px;
+    }
+    
+    .contentItem figure figcaption p{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .servicesGridContainer{ 
+        height:60vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        grid-template-areas: 
+        "tops mid bot"
+        "cont cont cont";
+    }
+    .contentItem figure img{
+        width: auto;
+        max-height: 200px;
+    }
+    .contentItem figure figcaption p{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #services{
+        padding-top:10vh;
+    }
+    .servicesGridContainer{ 
+        margin-top:10vh;
+        height:80vw;
+    }
+    .servicesItem{
+        font-size:1em;
+    }
+    .contentItem figure{
+        height:auto;
+    }
+    .contentItem figure img{
+        width: auto;
+        max-height: 100px;
+    }
+    .contentItem figure figcaption p{
+        font-size: 1.5em;
+    }
+}

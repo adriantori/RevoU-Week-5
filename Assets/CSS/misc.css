@@ -13,6 +13,7 @@ body::-webkit-scrollbar-thumb {
 
 .tempHeight{
   height:100vh;
+  scroll-snap-align: start;
 }
 
 .navWaveBottom {

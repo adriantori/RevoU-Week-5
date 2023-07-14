@@ -86,7 +86,7 @@
     <main>
         <section id="opening" name="opening" class="section" data-label="Opening">
             <div class="tempHeight">
-                <h2>Some of our work</h2>
+                <h2 class="openingText">Our Work</h2>
                 <div class="openingContainer">
                     <div class="openingItem">
                         <img src="Assets/Images/example1.png" alt="website white">
@@ -158,7 +158,37 @@
         </div>
         <section id="services" name="services" class="section" data-label="Services">
             <div class="tempHeight">
-                services
+                <h2 class="servicesText">What we do</h2>
+                <div class="servicesGridContainer">
+                    <div id="servicesGridTop" class="servicesItem" onclick="topClicked()">
+                        <p>Static Web</p>
+                    </div>
+                    <div id="servicesGridMid" class="servicesItem" onclick="midClicked()">
+                        <p>Responsive Web</p>
+                    </div>
+                    <div id="servicesGridBottom" class="servicesItem" onclick="botClicked()">
+                        <p>Web App</p>
+                    </div>
+                    
+                    <div id="servicesGridContent" class="servicesItemContent">
+                        <div id="contentTop" class="contentItem">
+                            <figure>
+                                <img src="Assets/Images/typeSite1.png" alt="static website">
+                                <figcaption><p>We serves simple static website<br/>perfect for small business</p></figcaption>
+                            </figure>
+                        </div>
+                        <div id="contentMid" class="contentItem">
+                            <figure>
+                                <img src="Assets/Images/typeSite2.png" alt="responsive website">
+                                <figcaption><p>Website that works great in most devices</p></figcaption>
+                            </figure>
+                        </div>
+                        <div id="contentBot" class="contentItem">
+                            <p>content Bot</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
         <div class="navWaveBottom">
@@ -167,38 +197,40 @@
             </svg>
         </div>
         <section id="showcase" name="showcase" class="section" data-label="Showcase">
-            <div class="showcaseMargin">
-                <h2>Create your own design!</h2>
-                <div class="showcaseNavbar">
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <div class="slideItem slideNav fade">
-                        <img src="Assets/Images/customWeb/navbar2.png">
+            <div class="tempHeight">
+                <h2 class="showcaseText">Create your own design!</h2>
+                <div class="showcaseMargin">
+                    <div class="showcaseNavbar">
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <div class="slideItem slideNav fade">
+                            <img src="Assets/Images/customWeb/navbar2.png">
+                        </div>
+    
+                        <div class="slideItem slideNav fade">
+                            <img src="Assets/Images/customWeb/navbar1.png">
+                        </div>
+    
+                        <div class="slideItem slideNav fade">
+                            <img src="Assets/Images/customWeb/navbar3.png">
+                        </div>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
                     </div>
-
-                    <div class="slideItem slideNav fade">
-                        <img src="Assets/Images/customWeb/navbar1.png">
+                    <div id="showcaseBody">
+                            <label for="changeColorBody">Change Background</label>
+                            <input type="color" id="changeColorBody" value="#0F0F0F" /><br/><br/>
+                            <label for="changeColorText">Change Text Color</label>
+                            <input type="color" id="changeColorText" value="#F0F0F0" />
                     </div>
-
-                    <div class="slideItem slideNav fade">
-                        <img src="Assets/Images/customWeb/navbar3.png">
+                    <div class="showcaseFooter">
+                        <a class="prev" onclick="plusSlidesFoot(-1)">❮</a>
+                        <div class="slideItem slideFoot fade">
+                            <img src="Assets/Images/customWeb/footer3.png">
+                        </div>
+                        <div class="slideItem slideFoot fade">
+                            <img src="Assets/Images/customWeb/footer1.png">
+                        </div>
+                        <a class="next" onclick="plusSlidesFoot(1)">❯</a>
                     </div>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                </div>
-                <div id="showcaseBody">
-                        <label for="changeColorBody">Change Background</label>
-                        <input type="color" id="changeColorBody" value="#0F0F0F" /><br/><br/>
-                        <label for="changeColorText">Change Text Color</label>
-                        <input type="color" id="changeColorText" value="#F0F0F0" />
-                </div>
-                <div class="showcaseFooter">
-                    <a class="prev" onclick="plusSlidesFoot(-1)">❮</a>
-                    <div class="slideItem slideFoot fade">
-                        <img src="Assets/Images/customWeb/footer3.png">
-                    </div>
-                    <div class="slideItem slideFoot fade">
-                        <img src="Assets/Images/customWeb/footer1.png">
-                    </div>
-                    <a class="next" onclick="plusSlidesFoot(1)">❯</a>
                 </div>
             </div>
         </section>
@@ -284,9 +316,11 @@
         <h5>copyright Adri Antori - RevoU week 5 - Milestone Project 1</h5>
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js" defer></script>
-<script src="Assets/JS/animation.js" defer></script>
-<script src="Assets/JS/navbar.js" defer></script>
-<script src="Assets/JS/showcase.js" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="Assets/JS/animation.js"></script>
+<script type="text/javascript" src="Assets/JS/navbar.js"></script>
+<script type="text/javascript" src="Assets/JS/services.js"></script>
+<script type="text/javascript" src="Assets/JS/showcase.js"></script>
 
 </html>
