@@ -30,7 +30,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Navbar - Normal
 
-![](/Assets/Images/Readme/2023-07-14-19-35-44-image.png)
+![Navbar Normal](/Assets/Images/Readme/2023-07-14-19-35-44-image.png)
 
 1. There's vertical animation from top to bottom, followed by staggered animation on nav items.
 
@@ -38,7 +38,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Navbar - Mobile
 
-![](/Assets/Images/Readme/2023-07-14-19-54-12-image.png)
+![Navbar Mobile](/Assets/Images/Readme/2023-07-14-19-54-12-image.png)
 
 1. There's vertical animation from top to bottom, then bounced up
 
@@ -50,7 +50,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Sidebar
 
-![](/Assets/Images/Readme/2023-07-14-21-36-53-image.png)
+![Navbar Sidebar](/Assets/Images/Readme/2023-07-14-21-36-53-image.png)
 
 1. Each section will have its own sidebar (disabled on mobile view).
 
@@ -60,7 +60,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### H1 section
 
-![](/Assets/Images/Readme/2023-07-14-19-58-18-image.png)
+![H1 Section](/Assets/Images/Readme/2023-07-14-19-58-18-image.png)
 
 1. Each color of "CoDeGree" is made out of span.
 
@@ -70,7 +70,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### The C U B E
 
-![](/Assets/Images/Readme/2023-07-14-19-59-45-image.png)
+![The CUBE](/Assets/Images/Readme/2023-07-14-19-59-45-image.png)
 
 1. Its comprised of 5 span.
 
@@ -82,7 +82,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Opening Section
 
-![](/Assets/Images/Readme/2023-07-14-20-07-49-image.png)
+![Opening Section](/Assets/Images/Readme/2023-07-14-20-07-49-image.png)
 
 1. The title have slide animation from left to right.
 
@@ -96,7 +96,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Services Section
 
-![](/Assets/Images/Readme/2023-07-14-20-45-00-image.png)
+![Services Section](/Assets/Images/Readme/2023-07-14-20-45-00-image.png)
 
 1. Each div on the left side can be clicked.
 
@@ -106,7 +106,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Showcase Section
 
-![](/Assets/Images/Readme/2023-07-14-21-38-55-image.png)
+![Showcase Section](/Assets/Images/Readme/2023-07-14-21-38-55-image.png)
 
 1. User can change Navbar and Footer by clicking on the Arrow.
 
@@ -116,7 +116,7 @@ In this section, I'll try to explain most of the feature I wrote in this project
 
 ### Contact Us
 
-![](/Assets/Images/Readme/2023-07-14-21-40-47-image.png)
+![Contact Us](/Assets/Images/Readme/2023-07-14-21-40-47-image.png)
 
 1. Contact Us is created using Grid.
 
@@ -140,13 +140,13 @@ assuming you already have GitHub account:
 
 1. Go to Team overview menu, click Add new site, Import an existing project
    
-   ![github login](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-11-16-10-image.png?msec=1689337551317)
+   ![github login](/Assets/Images/Readme/2023-07-07-11-16-10-image.png?msec=1689337551317)
 
 2. Click GitHub
 
 3. Pick a repository you want to add
    
-   ![github repo](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-11-17-41-image.png?msec=1689337551298)
+   ![github repo](/Assets/Images/Readme/2023-07-07-11-17-41-image.png?msec=1689337551298)
 
 4. Scroll down, Deploy Site
 
@@ -160,7 +160,7 @@ Once you deploy the site, it will be automatically refreshed when you Push thing
 
 2. Type your domain name you want, click "Cari Domain", click "Daftarkan Domain"
    
-   ![domainesia](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-11-58-47-image.png?msec=1689337551362)
+   ![domainesia](/Assets/Images/Readme/2023-07-07-11-58-47-image.png?msec=1689337551362)
 
 3. Click "Masukkan Troli" and follow the instruction for payment option
 
@@ -180,21 +180,21 @@ Once you deploy the site, it will be automatically refreshed when you Push thing
 
 6. Copy Nameserver 1 & 2, later you'll need this to overwrite your domain Nameserver
    
-   ![cloudflare nameserver](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-12-10-25-image.png?msec=1689337551311)
+   ![cloudflare nameserver](/Assets/Images/Readme/2023-07-07-12-10-25-image.png?msec=1689337551311)
 
 7. Go to your domain provider, click Domains -> your Domain Name
    
-   ![domainesia select domain](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-12-05-28-image.png?msec=1689337551316)
+   ![domainesia select domain](/Assets/Images/Readme/2023-07-07-12-05-28-image.png?msec=1689337551316)
 
 8. click Nameservers, and paste Nameservers provided by Cloudflare
    
-   ![domainesia change nameserver](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-12-06-30-image.png?msec=1689337551297)
+   ![domainesia change nameserver](/Assets/Images/Readme/2023-07-07-12-06-30-image.png?msec=1689337551297)
 
 ### Setting DNS
 
 1. go to your cloudflare account, click your website name -> DNS -> Records, click Add record
    
-   ![cloudflare dns record](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-12-18-05-image.png?msec=1689337551292)
+   ![cloudflare dns record](/Assets/Images/Readme/2023-07-07-12-18-05-image.png?msec=1689337551292)
 
 2. Enter "Type: CNAME, Name: @, IPv4 address: your Netlify.app link (i.e website.netlify.app)"
 
@@ -206,10 +206,10 @@ Once you deploy the site, it will be automatically refreshed when you Push thing
 
 2. go to Site overview -> Domain settings
    
-   ![netlify domain](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-12-13-08-image.png?msec=1689337551317)
+   ![netlify domain](/Assets/Images/Readme/2023-07-07-12-13-08-image.png?msec=1689337551317)
 
 3. Click Add domain alias, type your domain name, click Add domain
    
-   ![netlify domain name](file://B:\Works\RevoU\Week 4\0 Assignment\Assets\Images\Readme\2023-07-07-12-14-28-image.png?msec=1689337551315)
+   ![netlify domain name](/Assets/Images/Readme/2023-07-07-12-14-28-image.png?msec=1689337551315)
 
 4. Wait for awhile and your site is ready to be used
