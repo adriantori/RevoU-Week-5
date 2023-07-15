@@ -18,23 +18,20 @@
     "mid cont"
     "bot cont";
     grid-gap: 10px;
+    box-shadow: 20px 15px rgba(0,0,0, 0.2);
 }
 
 
 #servicesGridTop{
     grid-area: tops;
-    background-color: red;
-    opacity:0.8;
 }
 
 #servicesGridMid{
     grid-area: mid;
-    background-color: green;
 }
 
 #servicesGridBottom{
     grid-area: bot;
-    background-color: blue;
 }
 
 #servicesGridContent{
@@ -45,7 +42,7 @@
 .contentItem{
     display: none;
     align-items: center;
-    justify-content: flex-end !important;
+    justify-content: flex-end;
 }
 
 .servicesItem{
@@ -54,6 +51,14 @@
     justify-content: center;
     font-size:2em;
     text-align: center;
+    opacity: 0.5;
+    transition: opacity 1s;
+    box-shadow: 5px 10px rgba(0,0,0, 0.2);
+    background-color:#000;
+}
+
+.servicesItem:hover{
+    background-color:#252525;
 }
 
 .servicesItemContent{
