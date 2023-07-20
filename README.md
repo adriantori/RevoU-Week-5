@@ -20,6 +20,8 @@ If Smooth Scrolling doesnt work, you can try enabling it by following [this tuto
 
 Media query are optimized for 1440px and 425px, with small adjustment at 1024px and 768px.
 
+I used [gsap](https://greensock.com/gsap/) for some of the animation, alongside [Google Font](https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap) and [Font Awesome Icons](fontawesome.com/) for fonts and icons.
+
 ### Deploy Link
 
 [https://adriantori.my.id](https://adriantori.my.id)
